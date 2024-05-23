@@ -17,4 +17,4 @@ This project is a landing page for Orhid Color, an advertising company. It showc
 - Bootstrap
 
 
-Live demo on [github][https://stazz2032.github.io/]
+Live demo on [vercel][https://tum-web-lab4.vercel.app/]
