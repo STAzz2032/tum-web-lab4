@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Header Styles */
+header {
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* Desktop Navigation Styles */
+.desktop-nav {
+    background: #28282B;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.desktop-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.desktop-nav li {
+    margin: 0 15px;
+}
+
+.desktop-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.desktop-nav a:hover {
+    background: #e0e0e0;
+    color: #28282B;
+}
+
+/* Mobile Navigation Styles */
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mobile-nav li {
+    margin: 10px 0;
+}
+
+.mobile-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    background: #28282B;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.mobile-nav a:hover {
+    background: #e0e0e0;
+    color: #28282B;
+}
+
+/* Section Styles */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.section:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section p {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-top: 80px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section img {
+    max-width: 55%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Footer Styles */
+footer {
+    background: #28282B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    /* Hide desktop navigation on mobile */
+    .desktop-nav {
+        display: none;
+    }
+
+    /* Show mobile navigation on mobile */
+    .mobile-nav {
+        display: block;
+    }
+
+    /*
